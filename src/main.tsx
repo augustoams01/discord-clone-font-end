@@ -53,13 +53,15 @@ const RouterComponent = () => {
 
 
 createRoot(document.getElementById('root')!).render(
+  
   <StrictMode>
     <MantineProvider>
       <BrowserRouter>
         <RouterComponent/>
       </BrowserRouter>
     </MantineProvider>
-  </StrictMode>,
+  </StrictMode>
+
 )
 
 export default RouterComponent;

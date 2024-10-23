@@ -1,7 +1,7 @@
 import {create} from "zustand";
 import {persist} from "zustand/middleware"
 
-export type Modal= "CreateServer"
+export type Modal = "CreateServer"
 
 interface GeneralSotre{
     activeModal: Modal | null
